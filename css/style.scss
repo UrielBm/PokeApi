@@ -26,8 +26,8 @@
         padding: 2rem 1rem;
         max-width: 360px;
         max-height: 100vh;
-       @media only screen and (max-device-width:$break-small){
-            width: 100%;
+        @media only screen and (min-device-width : 320px) and (max-device-width :$break-small){
+            max-width:100%;
             height: auto;
         } 
         .titlePokemons{
@@ -39,7 +39,7 @@
            width: 100%;
            text-align: center;
            overflow-y: scroll;
-           @media only screen and (max-device-width:$break-small){
+           @media only screen and (min-device-width : 320px) and (max-device-width : $break-small){
             display: flex;
             overflow-x: scroll;
         }

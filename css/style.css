@@ -23,9 +23,9 @@
   max-width: 360px;
   max-height: 100vh;
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .wrapperPokemons .wrapperListPokemons {
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
 }
@@ -39,7 +39,7 @@
   text-align: center;
   overflow-y: scroll;
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .wrapperPokemons .wrapperListPokemons .wrapperList {
     display: flex;
     overflow-x: scroll;

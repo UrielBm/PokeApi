@@ -38,7 +38,7 @@ const BusquedaPoke =  async (event) => {
     pokename.innerText = `"${name}"`
     pokeHeight.innerText = `${height/10} mtrs`
     pokeWeight.innerText = `${weight/100} Kgs`;
-    experiencePoints.innerText = `${base_experience} poits`;
+    experiencePoints.innerText = `${base_experience} points`;
     imagenFront.src = imgFront;
     imagenBack.src = imgBack;
 };

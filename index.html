@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.flaticon.es/svg/static/icons/svg/361/361998.svg">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>PokeApi</title>
+</head>
+<body>
+    <div class="wrapperPokemons">
+       <aside class="wrapperListPokemons">
+           <h1 class="titlePokemons">Lista de pokemons</h1>
+        <div class="wrapperList" id="wrapperList">
+        </div>
+       </aside>
+       <main class="wrapperInfoPokemons" id="wrapperInfo">
+            <h2 class="namePoke" id="pokeName"></h2>
+            <div class="cardInfo">
+                <p>Altura: <span class="info" id="height"></span></p>
+            </div>
+            <div class="cardInfo">
+                <p>Peso: <span class="info" id="weight"></span></p>
+            </div>
+            <div class="cardInfo">
+                <p>Puntos de Experciencia: <span class="info" id="base_experience"></span></p>
+            </div>
+            <div class="cardInfo">
+                 <h3 class="titlephotos">Vista del pokemon:</h3>
+                 <img  class="imgPokemon" src="" alt="viewFront-pokemon" id="imgFront" />
+                 <img  class="imgPokemon" src="" alt="viewBack-pokemon" id="imgBack" />
+            </div>
+        </main>
+    </div>
+</body>
+<script src="./js/index.js" type="text/javascript"></script>
+</html>

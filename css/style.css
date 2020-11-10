@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&display=swap");
+.wrapperPokemons {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-items: space-around;
+  align-items: flex-start;
+  max-height: 100vh;
+}
+@media only screen and (max-device-width: 480px) {
+  .wrapperPokemons {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+}
+.wrapperPokemons .wrapperListPokemons {
+  background-color: #fff3e2;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  max-width: 360px;
+  max-height: 100vh;
+}
+@media only screen and (max-device-width: 480px) {
+  .wrapperPokemons .wrapperListPokemons {
+    width: 100%;
+    height: auto;
+  }
+}
+.wrapperPokemons .wrapperListPokemons .titlePokemons {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.wrapperPokemons .wrapperListPokemons .wrapperList {
+  width: 100%;
+  text-align: center;
+  overflow-y: scroll;
+}
+@media only screen and (max-device-width: 480px) {
+  .wrapperPokemons .wrapperListPokemons .wrapperList {
+    display: flex;
+    overflow-x: scroll;
+  }
+}
+.wrapperPokemons .wrapperListPokemons .wrapperList .cardPokemon {
+  background-color: #ebcfc4;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 3rem;
+  font-weight: 700;
+}
+@media only screen and (max-device-width: 480px) {
+  .wrapperPokemons .wrapperListPokemons .wrapperList .cardPokemon {
+    margin: 0.5rem;
+    padding: 0.5rem 0.8rem;
+  }
+}
+.wrapperPokemons .wrapperInfoPokemons {
+  background-image: url("https://images.unsplash.com/photo-1542779283-429940ce8336?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6rem;
+  min-height: 100vh;
+}
+@media only screen and (max-device-width: 480px) {
+  .wrapperPokemons .wrapperInfoPokemons {
+    padding: 4rem;
+  }
+}
+@media only screen and (max-device-width: 768px) {
+  .wrapperPokemons .wrapperInfoPokemons {
+    padding: 4rem 0;
+  }
+}
+.wrapperPokemons .wrapperInfoPokemons .namePoke {
+  color: red;
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+@media only screen and (max-device-width: 480px) {
+  .wrapperPokemons .wrapperInfoPokemons .namePoke {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media only screen and (max-device-width: 768px) {
+  .wrapperPokemons .wrapperInfoPokemons .namePoke {
+    margin-bottom: 4.5rem;
+  }
+}
+.wrapperPokemons .wrapperInfoPokemons .cardInfo {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  font-weight: 400;
+}
+@media only screen and (max-device-width: 480px) {
+  .wrapperPokemons .wrapperInfoPokemons .cardInfo {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+}
+.wrapperPokemons .wrapperInfoPokemons .cardInfo .info {
+  font-size: 1.4rem;
+  color: black;
+  font-weight: 700;
+}
+@media only screen and (max-device-width: 480px) {
+  .wrapperPokemons .wrapperInfoPokemons .cardInfo .info {
+    font-size: 1.2rem;
+  }
+}
+.wrapperPokemons .wrapperInfoPokemons .cardInfo .titlephotos {
+  font-style: italic;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: red;
+}
+@media only screen and (max-device-width: 480px) {
+  .wrapperPokemons .wrapperInfoPokemons .cardInfo .titlephotos {
+    font-size: 1.5rem;
+  }
+}
+.wrapperPokemons .wrapperInfoPokemons .cardInfo .imgPokemon {
+  width: 110px;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=style.css.map */
